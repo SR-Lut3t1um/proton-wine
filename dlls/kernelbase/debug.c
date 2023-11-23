@@ -55,6 +55,7 @@ void *dummy = RtlUnwind;  /* force importing RtlUnwind from ntdll */
 BOOL WINAPI DECLSPEC_HOTPATCH CheckRemoteDebuggerPresent( HANDLE process, BOOL *present )
 {
     DWORD_PTR port;
+    FIXME( "CheckRemoteDebuggerPresent called\n" );
 
     if (!process || !present)
     {
@@ -64,7 +65,7 @@ BOOL WINAPI DECLSPEC_HOTPATCH CheckRemoteDebuggerPresent( HANDLE process, BOOL *
     if (!set_ntstatus( NtQueryInformationProcess( process, ProcessDebugPort, &port, sizeof(port), NULL )))
         return FALSE;
     *present = !!port;
-    return TRUE;
+    return FALSE;
 }
 
 
@@ -163,7 +164,8 @@ void WINAPI DECLSPEC_HOTPATCH FatalAppExitW( UINT action, LPCWSTR str )
  */
 BOOL WINAPI IsDebuggerPresent(void)
 {
-    return NtCurrentTeb()->Peb->BeingDebugged;
+    FIXME( "IsDebuggerPresent called\n" );
+    return FALSE;
 }
 
 
