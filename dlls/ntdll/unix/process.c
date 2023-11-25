@@ -1766,7 +1766,7 @@ NTSTATUS WINAPI NtDebugActiveProcess( HANDLE process, HANDLE debug )
 {
     unsigned int ret;
 
-    FixBrushOrgEx("HEyHo");
+    FIXME("HEyHo");
 
     SERVER_START_REQ( debug_process )
     {

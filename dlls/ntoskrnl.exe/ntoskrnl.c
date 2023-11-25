@@ -3343,6 +3343,7 @@ NTSTATUS WINAPI PsSuspendProcess(PEPROCESS process)
 NTSTATUS WINAPI PsResumeProcess(PEPROCESS process)
 {
     FIXME("stub: %p\n", process);
+    FIXME("HEYHO CAPTAIN JACKS");
     return STATUS_NOT_IMPLEMENTED;
 }
 

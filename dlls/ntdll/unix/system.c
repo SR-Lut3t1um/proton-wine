@@ -2537,11 +2537,13 @@ static void read_dev_urandom( void *buf, ULONG len )
 
 static unsigned int get_system_process_info( SYSTEM_INFORMATION_CLASS class, void *info, ULONG size, ULONG *len )
 {
+    FIXME("\n class: %i \n", class);
     unsigned int process_count, total_thread_count, total_name_len, i, j;
     unsigned int thread_info_size;
     unsigned int pos = 0;
     char *buffer = NULL;
     unsigned int ret;
+
 
 C_ASSERT( sizeof(struct thread_info) <= sizeof(SYSTEM_THREAD_INFORMATION) );
 C_ASSERT( sizeof(struct process_info) <= sizeof(SYSTEM_PROCESS_INFORMATION) );
@@ -2557,6 +2559,7 @@ C_ASSERT( sizeof(struct process_info) <= sizeof(SYSTEM_PROCESS_INFORMATION) );
     SERVER_START_REQ( list_processes )
     {
         wine_server_set_reply( req, buffer, size );
+        FIXME("req: %s \s", req);
         ret = wine_server_call( req );
         total_thread_count = reply->total_thread_count;
         total_name_len = reply->total_name_len;
@@ -2573,6 +2576,8 @@ C_ASSERT( sizeof(struct process_info) <= sizeof(SYSTEM_PROCESS_INFORMATION) );
 
         free( buffer );
         return ret;
+    } else {
+        FIXME("RET IS FUCKING NULL");
     }
 
     for (i = 0; i < process_count; i++)
@@ -2756,6 +2761,7 @@ NTSTATUS WINAPI NtQuerySystemInformation( SYSTEM_INFORMATION_CLASS class,
 
     case SystemProcessInformation:  /* 5 */
         ret = get_system_process_info( class, info, size, &len );
+        FIXME("ret: %s", ret);
         break;
 
     case SystemProcessorPerformanceInformation:  /* 8 */
@@ -3090,6 +3096,7 @@ NTSTATUS WINAPI NtQuerySystemInformation( SYSTEM_INFORMATION_CLASS class,
 
     case SystemExtendedProcessInformation:  /* 57 */
         ret = get_system_process_info( class, info, size, &len );
+        FIXME("GOT ADDICTED: %s", ret);
         break;
 
     case SystemRecommendedSharedDataAlignment:  /* 58 */
@@ -3460,7 +3467,7 @@ NTSTATUS WINAPI NtQuerySystemInformationEx( SYSTEM_INFORMATION_CLASS class,
     }
 
     default:
-        FIXME( "(0x%08x,%p,%u,%p,%u,%p) stub\n", class, query, (int)query_len, info, (int)size, ret_size );
+        FIXME( "(0x%08x,%p,%u,%p,%u,%p) stub WE NEED GOD\n", class, query, (int)query_len, info, (int)size, ret_size );
         break;
     }
     if (ret_size) *ret_size = len;
