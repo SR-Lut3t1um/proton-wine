@@ -1,0 +1,58 @@
+
+ec:S1134Ñ"LTake the required action to fix the issue indicated by this "FIXME" comment.(í¼éşÿÿÿÿ
+`c:S1134ù"LTake the required action to fix the issue indicated by this "FIXME" comment.(ôËËš
+:c:S1103ı"&Remove the misleading "//" characters.(¢´à“
+?c:S1103‚"&Remove the misleading "//" characters.(„µÛ·üÿÿÿÿ
+:c:S1103ƒ"&Remove the misleading "//" characters.(’Ú³ø
+ec:S1134Â"LTake the required action to fix the issue indicated by this "FIXME" comment.(Ô³ô„úÿÿÿÿ
+ec:S1134"LTake the required action to fix the issue indicated by this "FIXME" comment.(±ÃĞüùÿÿÿÿ
+ec:S1134‡"LTake the required action to fix the issue indicated by this "FIXME" comment.(±ÃĞüùÿÿÿÿ
+ec:S1134ˆ"LTake the required action to fix the issue indicated by this "FIXME" comment.(Ï¥°…şÿÿÿÿ
+ec:S1134‰"LTake the required action to fix the issue indicated by this "FIXME" comment.(·°ãêıÿÿÿÿ
+`c:S1134Š"LTake the required action to fix the issue indicated by this "FIXME" comment.(¹—ºš
+_c:S1134‹"LTake the required action to fix the issue indicated by this "FIXME" comment.(–áüy
+`c:S1134˜"LTake the required action to fix the issue indicated by this "FIXME" comment.(¦„·Ó
+ec:S1134¬"LTake the required action to fix the issue indicated by this "FIXME" comment.(¬ãÚşÿÿÿÿ
+4c:S3744Í" 'FILE_SUPERSEDE' macro redefined(ƒÀé×
+4c:S3744Î"'FILE_OPEN' macro redefined(˜ÍÜûÿÿÿÿ
+6c:S3744Ï"'FILE_CREATE' macro redefined(‹Îà‹ÿÿÿÿÿ
+7c:S3744Ğ"'FILE_OPEN_IF' macro redefined(ËØíˆıÿÿÿÿ
+9c:S3744Ñ" 'FILE_OVERWRITE' macro redefined(ëé¿ıÿÿÿÿ
+<c:S3744Ò"#'FILE_OVERWRITE_IF' macro redefined(¿ö´¿ÿÿÿÿÿ
+Cc:S3744Ó"*'FILE_MAXIMUM_DISPOSITION' macro redefined(ĞÀ˜öùÿÿÿÿ
+?c:S3744„"&'OBJ_VALID_ATTRIBUTES' macro redefined(æÁ×îşÿÿÿÿ
+pc:S820‹$"Xtype specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int(÷ßÍıÿÿÿÿ
+pc:S820Œ$"Xtype specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int(ˆ­ ¼ûÿÿÿÿ
+@c:S3744ã$",'InitializeObjectAttributes' macro redefined(áÍŒ³
+nc:S5276…%"Uimplicit conversion loses integer precision: 'int' to 'USHORT' (aka 'unsigned short')(ºÒ•²ÿÿÿÿÿ
+wc:S1820¬"^Refactor this structure so it has no more than 20 fields, rather than the 33 it currently has.(­ú’øÿÿÿÿ
+rc:S1820±"^Refactor this structure so it has no more than 20 fields, rather than the 87 it currently has.(¢úşÿ
+rc:S1820"^Refactor this structure so it has no more than 20 fields, rather than the 89 it currently has.(Ü‹’Ü
+rc:S1820ç"^Refactor this structure so it has no more than 20 fields, rather than the 33 it currently has.(Ò˜Á
+rc:S1820Œ"^Refactor this structure so it has no more than 20 fields, rather than the 33 it currently has.(À÷òº
+rc:S1820Ë"^Refactor this structure so it has no more than 20 fields, rather than the 87 it currently has.(Ëíˆ
+rc:S1820¦"^Refactor this structure so it has no more than 20 fields, rather than the 87 it currently has.(ßØİÿ
+rc:S1820"^Refactor this structure so it has no more than 20 fields, rather than the 88 it currently has.(í½‰
+qc:S1820İ"^Refactor this structure so it has no more than 20 fields, rather than the 89 it currently has.(ÑˆÚj
+Sc:S841ô"@Initialize none, only the first, or all enumeration definitions.(ÁŒ£ÿ
+1c:S814®"Change type of bit field.(ïÄøœşÿÿÿÿ
+1c:S814¯"Change type of bit field.(‚Œ®ïøÿÿÿÿ
+1c:S814°"Change type of bit field.(­¢©Ëüÿÿÿÿ
+,c:S814±"Change type of bit field.(£§†
+,c:S814²"Change type of bit field.(çÓ§Õ
+1c:S814³"Change type of bit field.(‰íëøÿÿÿÿ
+,c:S814´"Change type of bit field.(­×¬ƒ
+,c:S814Æ"Change type of bit field.(Öèä
+,c:S814Ç"Change type of bit field.(âªœÖ
+,c:S814È"Change type of bit field.(ç£Ğ¿
+1c:S814É"Change type of bit field.(“Éñôúÿÿÿÿ
+,c:S814Ê"Change type of bit field.(¤×£“
+1c:S814Ë"Change type of bit field.(Ø¼¡ıÿÿÿÿ
+,c:S814Ì"Change type of bit field.(¤ôå°
+wc:S1820§"^Refactor this structure so it has no more than 20 fields, rather than the 23 it currently has.(ôÛÑ“úÿÿÿÿ
+wc:S1820Ó"^Refactor this structure so it has no more than 20 fields, rather than the 73 it currently has.(Ô»”Èøÿÿÿÿ
+Sc:S841»"@Initialize none, only the first, or all enumeration definitions.(®‡«¤
+rc:S1820Ç"^Refactor this structure so it has no more than 20 fields, rather than the 28 it currently has.(àÒå¼
+Ic:S1659˜%"0Define each identifier in a dedicated statement.(µ®¨…øÿÿÿÿ
+Ic:S1659¥%"0Define each identifier in a dedicated statement.(µ®¨…øÿÿÿÿ
+1c:S125Â"Remove the commented out code.(ä‡±

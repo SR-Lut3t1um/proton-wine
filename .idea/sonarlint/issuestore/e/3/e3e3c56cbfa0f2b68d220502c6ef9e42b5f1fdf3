@@ -1,0 +1,85 @@
+
+Xc:S959`"ARemove this #undef directive that undefines a non-existing macro.(óÃŠ úÿÿÿÿ
+Xc:S959a"ARemove this #undef directive that undefines a non-existing macro.(¿üÃ·ýÿÿÿÿ
+Sc:S959b"ARemove this #undef directive that undefines a non-existing macro.(ŸÔÿ”
+>c:S5281¼"%format string is not a string literal(ÆÊÏ´øÿÿÿÿ
+^c:S859á"Kcast from 'const union generic_request *' to 'void *' drops const qualifier(ÑüÅ˜
+Rc:S859å":cast from 'const void *' to 'void *' drops const qualifier(èçåÐøÿÿÿÿ
+ec:S5276Ù"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(¾Ó¦Ûøÿÿÿÿ
+`c:S5276è"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(šÄºË
+ec:S5276þ"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(éæŽµøÿÿÿÿ
+_c:S5276â"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(º“ú[
+ec:S5276ì"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(ý‰öÂýÿÿÿÿ
+vc:S5276ñ"]implicit conversion loses integer precision: 'DWORD' (aka 'unsigned int') to 'unsigned short'(ò…¹½úÿÿÿÿ
+vc:S5276ò"]implicit conversion loses integer precision: 'DWORD' (aka 'unsigned int') to 'unsigned short'(­‚žþøÿÿÿÿ
+qc:S5276ó"]implicit conversion loses integer precision: 'DWORD' (aka 'unsigned int') to 'unsigned short'(ð‘ãƒ
+tc:S5276ž"`implicit conversion loses integer precision: 'ULONG_PTR' (aka 'unsigned long') to 'unsigned int'(•©Ë¥
+ec:S5276Ü"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(Ú´¼©ÿÿÿÿÿ
+`c:S5276ƒ"Limplicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int'(¾ÌñÒ
+^c:S5276Î
+"Eimplicit conversion loses integer precision: 'unsigned long' to 'int'(Šßðžþÿÿÿÿ
+Uc:S5276£"<implicit conversion loses integer precision: 'long' to 'int'(­¹å¯øÿÿÿÿ
+8c:S1117ö"$declaration shadows a local variable(÷ÚÈ¼
+Pc:S5276´"<implicit conversion loses integer precision: 'int' to 'char'(ÇÿÆÕ
+hc:S5276«"Timplicit conversion loses integer precision: 'rlim_t' (aka 'unsigned long') to 'int'(ãÓè
+3c:S923›" Remove use of ellipsis notation.(‰öÏå
+3c:S923§" Remove use of ellipsis notation.(…ˆß¯
+8c:S923¶" Remove use of ellipsis notation.(³ï‰õøÿÿÿÿ
+^c:S924ü"FReduce the number of nested "break" statements from 2 to 1 authorized.(ÆÖÓ½øÿÿÿÿ
+vc:S995Ï"cMake the type of this parameter a pointer-to-const. The current type of "sigset" is "__sigset_t *".(©Éîñ
+hc:S3776Û"TRefactor this function to reduce its Cognitive Complexity from 29 to the 25 allowed.(Þñ×ï
+_c:S134í"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(‚¢*
+ec:S134î"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Þöìƒüÿÿÿÿ
+ec:S134ï"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ÇÀÞ…øÿÿÿÿ
+hc:S3776ˆ"TRefactor this function to reduce its Cognitive Complexity from 52 to the 25 allowed.(Ä €
+Dc:S1659Š"0Define each identifier in a dedicated statement.(ˆ¡ÿ‚
+ec:S134§"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(“Ë‰Êøÿÿÿÿ
+`c:S134­"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ïß”
+`c:S134§"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ôÅýí
+Ec:S5955‡",Declare the variable "cmsg" inside the loop.(ÂØÿºúÿÿÿÿ
+`c:S134‰"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ñŽÎÍ
+`c:S134Š"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¼ƒ†
+Ic:S1659î"0Define each identifier in a dedicated statement.(Ê´ª¡úÿÿÿÿ
+^c:S924"FReduce the number of nested "break" statements from 2 to 1 authorized.(ÆÖÓ½øÿÿÿÿ
+vc:S5350Ž"cMake the type of this variable a pointer-to-const. The current type of "ucred" is "struct ucred *".(‰Øš0
+,c:S814ª"Change type of bit field.(ÒˆÞ«
+Dc:S1659È"0Define each identifier in a dedicated statement.(ë®¬ª
+Dc:S1659î"0Define each identifier in a dedicated statement.(ë®¬ª
+Dc:S1659†"0Define each identifier in a dedicated statement.(ë®¬ª
+ec:S134±"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(”Êû÷þÿÿÿÿ
+`c:S134²"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Íåçž
+_c:S134´"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ÃÙŽ
+Ic:S1659ž"0Define each identifier in a dedicated statement.(Ê´ª¡úÿÿÿÿ
+Ec:S1066ô"1Merge this "if" statement with the enclosing one.(¥è„°
+Ic:S1659™	"0Define each identifier in a dedicated statement.(—–ð™ýÿÿÿÿ
+4c:S1905§	"Remove this redundant cast.(‰û„Òøÿÿÿÿ
+4c:S1905¨	"Remove this redundant cast.(ÌÆÄãûÿÿÿÿ
+/c:S1905ª	"Remove this redundant cast.(†€æ
+4c:S1905¬	"Remove this redundant cast.(üŸÁôÿÿÿÿÿ
+/c:S1905­	"Remove this redundant cast.(´½ü¢
+/c:S1905¯	"Remove this redundant cast.(áüþø
+Ic:S1659¼	"0Define each identifier in a dedicated statement.(ýˆÙúÿÿÿÿ
+Pc:S5847á	"=Remove this TOCTOU race condition window when accessing files(î‚îT
+Vc:S5847â	"=Remove this TOCTOU race condition window when accessing files(â§‡èûÿÿÿÿ
+/c:S1905‘
+"Remove this redundant cast.(ÓÀ¨è
+hc:S3776 
+"TRefactor this function to reduce its Cognitive Complexity from 31 to the 25 allowed.(×ìß­
+Fc:S5955µ
+"-Declare the variable "retry" inside the loop.(õŽýŸùÿÿÿÿ
+Ic:S1659¤
+"0Define each identifier in a dedicated statement.(Ñ…Òíûÿÿÿÿ
+{c:S1911º
+"bRemove use of this obsolete "usleep" function. Replace it by a call to "nanosleep" or "setitimer".(¼°ö“øÿÿÿÿ
+hc:S3776ß"TRefactor this function to reduce its Cognitive Complexity from 30 to the 25 allowed.(ãñž 
+=c:S5955à")Declare the variable "i" inside the loop.(Ö·‹©
+Dc:S1659å"0Define each identifier in a dedicated statement.(¢çÝÁ
+Dc:S1659è"0Define each identifier in a dedicated statement.(þúÚ¤
+Qc:S1199Ž"8Extract this nested code block into a separate function.(ÒÌâ–øÿÿÿÿ
+Žc:S5350ì"zMake the type of this variable a pointer-to-const. The current type of "cpu_override" is "struct cpu_topology_override *".(³ŠØÛ
+Dc:S1659í"0Define each identifier in a dedicated statement.(† ìö
+zc:S995ž"bMake the type of this parameter a pointer-to-const. The current type of "entry_point" is "void *".(¼Žºïÿÿÿÿÿ
+rc:S5350 "YMake the type of this variable a pointer-to-const. The current type of "teb" is "void *".(„üœüÿÿÿÿ
+Jc:S1066ç"1Merge this "if" statement with the enclosing one.(ÜÙ©œÿÿÿÿÿ
+Zc:S3519Ú	"GOut of bound memory access (access exceeds upper limit of memory block)(‚²·+
+Rc:S2259Ò"9Dereference of null pointer (loaded from variable 'dest')( ÷°¡ûÿÿÿÿ

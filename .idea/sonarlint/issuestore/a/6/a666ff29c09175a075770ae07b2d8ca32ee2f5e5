@@ -1,0 +1,84 @@
+
+`c:S1134	"LTake the required action to fix the issue indicated by this "FIXME" comment.(‚÷Áæ
+`c:S1134«	"LTake the required action to fix the issue indicated by this "FIXME" comment.(‚÷Áæ
+ec:S1134ö	"LTake the required action to fix the issue indicated by this "FIXME" comment.(Ø˜ÖÏùÿÿÿÿ
+`c:S1134³"LTake the required action to fix the issue indicated by this "FIXME" comment.(ó’ò
+ec:S1134ä"LTake the required action to fix the issue indicated by this "FIXME" comment.(ä¥´Öúÿÿÿÿ
+`c:S1134Ó"LTake the required action to fix the issue indicated by this "FIXME" comment.(Ô˜üØ
+„c:S5276¼"kimplicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'DWORD' (aka 'unsigned int')(ÁÎš›şÿÿÿÿ
+c:S5276¾"kimplicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'DWORD' (aka 'unsigned int')(ÏÙº¨
+uc:S5276Ã"\implicit conversion loses integer precision: 'unsigned long' to 'ULONG' (aka 'unsigned int')(™æœŠüÿÿÿÿ
+sc:S5276ñ"_implicit conversion loses integer precision: 'unsigned long' to 'USHORT' (aka 'unsigned short')( Ä‡™
+vc:S5276œ"bimplicit conversion loses integer precision: 'unsigned long' to 'data_size_t' (aka 'unsigned int')(óÀÌñ
+Fc:S1117²"2declaration shadows a variable in the global scope(Â„¥²
+‚c:S5276Ó"nimplicit conversion loses integer precision: 'SIZE_T' (aka 'unsigned long') to 'USHORT' (aka 'unsigned short')(›ëÂ©
+=c:S1117"$declaration shadows a local variable(—¡ÀÀúÿÿÿÿ
+’c:S5276Â"~implicit conversion loses integer precision: 'const data_size_t' (aka 'const unsigned int') to 'USHORT' (aka 'unsigned short')(¬ú„Ì
+lc:S5276ã"Yimplicit conversion loses integer precision: 'const int' to 'UCHAR' (aka 'unsigned char')(‚Âüy
+pc:S2275Å"Pformat specifies type 'char *' but the argument has type 'HANDLE' (aka 'void *')(»ªÕËşÿÿÿÿ8¤âÌ½À1
+fc:S3776P"TRefactor this function to reduce its Cognitive Complexity from 26 to the 25 allowed.(ƒ‹•
+dc:S134y"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ˆ©Ãıÿÿÿÿ
+Cc:S1659R"0Define each identifier in a dedicated statement.(¶ÀªÖ
+Bc:S1659S"0Define each identifier in a dedicated statement.(…Êš
+mc:S3776–"TRefactor this function to reduce its Cognitive Complexity from 30 to the 25 allowed.(Ø„Üàüÿÿÿÿ
+Gc:S3562Î".Add a "default" case to this switch statement.(”ƒ—ëúÿÿÿÿ
+Bc:S3562ê".Add a "default" case to this switch statement.(İ¼ƒå
+Dc:S1659¤"0Define each identifier in a dedicated statement.(¢í±‰
+wc:S5350µ"cMake the type of this variable a pointer-to-const. The current type of "ptr" is "unsigned short *".(¯ù†õ
+Ic:S1659é"0Define each identifier in a dedicated statement.(‡™çÄøÿÿÿÿ
+mc:S3776¨"TRefactor this function to reduce its Cognitive Complexity from 36 to the 25 allowed.(º×Íüÿÿÿÿ
+Ic:S1659¬"0Define each identifier in a dedicated statement.(Å‘í·úÿÿÿÿ
+hc:S3776ë"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(æİ„Â
+Ic:S1659í"0Define each identifier in a dedicated statement.(öíÚ¤ÿÿÿÿÿ
+Ic:S1659î"0Define each identifier in a dedicated statement.(‰¸ıÿÿÿÿ
+mc:S3776¢"TRefactor this function to reduce its Cognitive Complexity from 43 to the 25 allowed.(¡ŞÌ—øÿÿÿÿ
+ˆc:S995¢"pMake the type of this parameter a pointer-to-const. The current type of "attr" is "struct _OBJECT_ATTRIBUTES *".(¡ŞÌ—øÿÿÿÿ
+Ic:S1659¦"0Define each identifier in a dedicated statement.(®ÂŞ„úÿÿÿÿ
+Ic:S1659§"0Define each identifier in a dedicated statement.(‰Œ¤éûÿÿÿÿ
+Bc:S5955™")Declare the variable "i" inside the loop.(ìêàØùÿÿÿÿ
+Ic:S1659Œ"0Define each identifier in a dedicated statement.(á­š­ÿÿÿÿÿ
+mc:S3776¤"TRefactor this function to reduce its Cognitive Complexity from 60 to the 25 allowed.(×ˆ’‘ıÿÿÿÿ
+`c:S107¤"HThis function has 11 parameters, which is greater than the 7 authorized.(×ˆ’‘ıÿÿÿÿ
+c:S995¦"xMake the type of this parameter a pointer-to-const. The current type of "process_attr" is "struct _OBJECT_ATTRIBUTES *".(³Ôóôúÿÿÿÿ
+c:S995¦"wMake the type of this parameter a pointer-to-const. The current type of "thread_attr" is "struct _OBJECT_ATTRIBUTES *".(³Ôóôúÿÿÿÿ
+”c:S995¨"|Make the type of this parameter a pointer-to-const. The current type of "params" is "struct _RTL_USER_PROCESS_PARAMETERS *".(Œ•ß™ÿÿÿÿÿ
+Ic:S1659­"0Define each identifier in a dedicated statement.(Óô·ëûÿÿÿÿ
+Dc:S1659²"0Define each identifier in a dedicated statement.(Â„¥²
+Dc:S1659³"0Define each identifier in a dedicated statement.(ç´¿ı
+Ic:S1659¶"0Define each identifier in a dedicated statement.(å…Œêøÿÿÿÿ
+Ic:S1659·"0Define each identifier in a dedicated statement.(Òÿ²Üûÿÿÿÿ
+Ic:S1659¸"0Define each identifier in a dedicated statement.(›Æìùÿÿÿÿ
+Cc:S1659¹"0Define each identifier in a dedicated statement.(İçä
+Dc:S1659º"0Define each identifier in a dedicated statement.(Çû­â
+Dc:S1659»"0Define each identifier in a dedicated statement.(¯Ê«Ø
+Dc:S1659¼"0Define each identifier in a dedicated statement.(Éôòú
+Ac:S3562Á".Add a "default" case to this switch statement.(©ê™v
+=c:S3458”"$Remove this redundant "case" clause.(®ß˜ÿÿÿÿÿ
+Cc:S1659î"0Define each identifier in a dedicated statement.(¶†Ï[
+/c:S1905û"Remove this redundant cast.(î¦Úä
+4c:S1905ı"Remove this redundant cast.(æÕäšşÿÿÿÿ
+4c:S1905ÿ"Remove this redundant cast.(Ãªª¹ÿÿÿÿÿ
+/c:S1905"Remove this redundant cast.(¹Â÷˜
+4c:S1905ƒ"Remove this redundant cast.(—‡¤©şÿÿÿÿ
+4c:S1905…"Remove this redundant cast.(—‡¤©şÿÿÿÿ
+ic:S3776¶"URefactor this function to reduce its Cognitive Complexity from 165 to the 25 allowed.(ÁÒ‹¹
+ec:S134Å	"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(àÁù‡ÿÿÿÿÿ
+`c:S134Ø	"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(óºª
+`c:S134Û	"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ß’Íş
+ec:S134÷	"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(‹ìòÿÿÿÿÿ
+`c:S134¥
+"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ÚÚ–Ó
+ec:S134Å
+"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¯àÈíúÿÿÿÿ
+`c:S134‡"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Ÿ£àü
+`c:S134–"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Ÿ£àü
+`c:S134«"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ÕÎù•
+Qc:S1479¾"8Reduce the number of switch cases from 40 to at most 30.(©’÷˜ÿÿÿÿÿ
+5c:S818§
+"Uppercase the literal suffix.(¢úÄèıÿÿÿÿ
+hc:S3776¬"TRefactor this function to reduce its Cognitive Complexity from 31 to the 25 allowed.(óˆÀÊ
+‡c:S5350Î"sMake the type of this variable a pointer-to-const. The current type of "ppc" is "struct _PROCESS_PRIORITY_CLASS *".(¾âÃ—
+ c:S5350ô"‹Make the type of this variable a pointer-to-const. The current type of "instr" is "struct _PROCESS_INSTRUMENTATION_CALLBACK_INFORMATION *".(á†š¿
+}c:S995Œ"jMake the type of this parameter a pointer-to-const. The current type of "client" is "struct _CLIENT_ID *".(å¹“‡
+tc:S2259Â"`Access to field 'Length' results in a dereference of a null pointer (loaded from variable 'str')(¬ú„Ì
+1c:S125Ğ"Remove the commented out code.(Ú™“½

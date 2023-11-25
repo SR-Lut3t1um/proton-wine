@@ -3332,7 +3332,8 @@ NTSTATUS WINAPI PsTerminateSystemThread(NTSTATUS status)
 NTSTATUS WINAPI PsSuspendProcess(PEPROCESS process)
 {
     FIXME("stub: %p\n", process);
-    return STATUS_NOT_IMPLEMENTED;
+    FIXME("HeyHO");
+    return STATUS_SUSPEND_COUNT_EXCEEDED;
 }
 
 

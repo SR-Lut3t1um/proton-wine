@@ -1730,6 +1730,8 @@ NTSTATUS WINAPI NtSuspendProcess( HANDLE handle )
 {
     unsigned int ret;
 
+    printf("handle: %s", handle);
+
     SERVER_START_REQ( suspend_process )
     {
         req->handle = wine_server_obj_handle( handle );
@@ -1763,6 +1765,8 @@ NTSTATUS WINAPI NtResumeProcess( HANDLE handle )
 NTSTATUS WINAPI NtDebugActiveProcess( HANDLE process, HANDLE debug )
 {
     unsigned int ret;
+
+    FixBrushOrgEx("HEyHo");
 
     SERVER_START_REQ( debug_process )
     {

@@ -1,0 +1,104 @@
+
+ec:S1134Ì"LTake the required action to fix the issue indicated by this "FIXME" comment.(¸äÅúÿÿÿÿ
+‰c:S5276“"vimplicit conversion loses integer precision: 'const DWORD' (aka 'const unsigned int') to 'WORD' (aka 'unsigned short')(Í¹öt
+c:S5276”"vimplicit conversion loses integer precision: 'const DWORD' (aka 'const unsigned int') to 'WORD' (aka 'unsigned short')(Œù¯Ïøÿÿÿÿ
+Šc:S5276–"vimplicit conversion loses integer precision: 'const DWORD' (aka 'const unsigned int') to 'WORD' (aka 'unsigned short')(¶ÛÍ½
+Šc:S5276™"vimplicit conversion loses integer precision: 'const DWORD' (aka 'const unsigned int') to 'WORD' (aka 'unsigned short')(Ë¯Èš
+ƒc:S5276È"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(Ü†ïÑùÿÿÿÿ
+ƒc:S5276É"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(ÓÇ¢«üÿÿÿÿ
+ƒc:S5276Ê"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(ö‹õ¢ûÿÿÿÿ
+ƒc:S5276Ò"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(ŞÛşêúÿÿÿÿ
+~c:S5276Ó"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(î¤ÚÖ
+~c:S5276Ô"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(ÁÉÛŞ
+ƒc:S5276Õ"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(ÊÚÆ÷ÿÿÿÿÿ
+ƒc:S5276Ö"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(âã£‹şÿÿÿÿ
+ƒc:S5276×"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(é†’øÿÿÿÿÿ
+~c:S5276õ"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(´¾„¬
+~c:S5276ö"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(„ÖæÃ
+~c:S5276÷"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(Ÿ«ÕÊ
+~c:S5276ø"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(á¸úŸ
+~c:S5276ù"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(û©
+ƒc:S5276ú"jimplicit conversion loses integer precision: 'const DWORD64' (aka 'const unsigned long') to 'unsigned int'(ÄĞ®€ÿÿÿÿÿ
+¿c:S859ê"¦cast from 'const struct context_t::(unnamed at /home/tliese/ar_proton_wine/include/wine/server_protocol.h:142:18) *' to 'struct _XSAVE_FORMAT *' drops const qualifier(ØŒÏ°ıÿÿÿÿ
+vc:S5276”"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(§ù¹ª
+vc:S5276•"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(ãÎˆÊ
+vc:S5276­"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(‘ü„´
+{c:S5276®"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(¶ãÉşÿÿÿÿ
+vc:S5276¯"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(ØğéÜ
+uc:S5276°"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(³²¶
+vc:S5276ß"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(–Ó”ü
+{c:S5276à"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(Í‰µ¸øÿÿÿÿ
+vc:S5276ğ"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(ëíÉŠ
+{c:S5276ñ"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(ˆ¬–Õşÿÿÿÿ
+vc:S5276ò"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(‡…ÃÄ
+{c:S5276ó"bimplicit conversion loses integer precision: 'const unsigned int' to 'WORD' (aka 'unsigned short')(¤Æ‡àùÿÿÿÿ
+{c:S5276Ç"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(Ì¾Ğ¦ûÿÿÿÿ
+vc:S5276È"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(Èà‡¤
+vc:S5276É"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(İ¥¦é
+{c:S5276Ñ"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(ù§Š¿ÿÿÿÿÿ
+{c:S5276Ò"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(ÜÁùÿÿÿÿ
+{c:S5276Ó"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(ƒÊÛùÿÿÿÿÿ
+{c:S5276Ô"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(ùşÜŞüÿÿÿÿ
+vc:S5276Õ"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(ªŒ±á
+{c:S5276Ö"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(ã©’˜ùÿÿÿÿ
+{c:S5276ğ"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(ÍÄ—×şÿÿÿÿ
+{c:S5276ñ"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(ŠöäÙşÿÿÿÿ
+vc:S5276ò"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(û¿½
+vc:S5276ó"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(”«—Ö
+vc:S5276ô"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(Œº´
+vc:S5276õ"bimplicit conversion loses integer precision: 'const unsigned long' to 'DWORD' (aka 'unsigned int')(×Õø—
+vc:S5276â"bimplicit conversion loses integer precision: 'const unsigned long' to 'ULONG' (aka 'unsigned int')(á²Ì›
+=c:S1117Ÿ
+"$declaration shadows a local variable(ÖÊÄÒúÿÿÿÿ
+†c:S5276„"rimplicit conversion loses integer precision: 'data_size_t' (aka 'unsigned int') to 'USHORT' (aka 'unsigned short')(ÎşÙĞ
+tc:S5276˜"[implicit conversion loses integer precision: 'const int' to 'BOOLEAN' (aka 'unsigned char')(Á–¶Æÿÿÿÿÿ
+Oc:S5276—"<implicit conversion loses integer precision: 'long' to 'int'(¡ÁÒ
+Ac:S5955o")Declare the variable "i" inside the loop.(¸½ïºøÿÿÿÿ
+_c:S134|"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ÊĞâ™
+`c:S134"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(·æÃù
+Hc:S1659c"0Define each identifier in a dedicated statement.(ÓÔŸüÿÿÿÿ
+Bc:S5955›")Declare the variable "i" inside the loop.(¸½ïºøÿÿÿÿ
+hc:S3776»"TRefactor this function to reduce its Cognitive Complexity from 43 to the 25 allowed.(İßÙæ
+Ic:S1659½"0Define each identifier in a dedicated statement.(Ğ‰¾ûûÿÿÿÿ
+Gc:S3562¿".Add a "default" case to this switch statement.(‰·´›ûÿÿÿÿ
+ic:S3776ì"URefactor this function to reduce its Cognitive Complexity from 113 to the 25 allowed.(ÁïËÅ
+Dc:S1659î"0Define each identifier in a dedicated statement.(¦„øÖ
+nc:S3776ê"URefactor this function to reduce its Cognitive Complexity from 184 to the 25 allowed.(ßç°ùÿÿÿÿ
+_c:S134¶"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(“Õ÷
+_c:S134€"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(“Õ÷
+_c:S134Ë"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(“Õ÷
+_c:S134"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(“Õ÷
+Ic:S1659ì"0Define each identifier in a dedicated statement.(œ–Öİüÿÿÿÿ
+xc:S5350‹"dMake the type of this variable a pointer-to-const. The current type of "native_context" is "void *".(‹Ã»
+tc:S5350Œ"aMake the type of this variable a pointer-to-const. The current type of "wow_context" is "void *".(¾€í
+~c:S995¢"kMake the type of this parameter a pointer-to-const. The current type of "server_contexts" is "context_t *".(†Šßé
+=c:S5955Ò	")Declare the variable "i" inside the loop.(¯ÅÉ¯
+Dc:S1659Ğ	"0Define each identifier in a dedicated statement.(¦™¦
+Zc:S107æ	"GThis function has 8 parameters, which is greater than the 7 authorized.(×¤ãÅ
+[c:S107ò	"HThis function has 11 parameters, which is greater than the 7 authorized.(şëèû
+ƒc:S995ò	"pMake the type of this parameter a pointer-to-const. The current type of "attr" is "struct _OBJECT_ATTRIBUTES *".(şëèû
+c:S5350˜"uMake the type of this variable a pointer-to-const. The current type of "thread_data" is "struct ntdll_thread_data *".(áåÇúúÿÿÿÿ
+†c:S995Å"nMake the type of this parameter a pointer-to-const. The current type of "rec" is "struct _EXCEPTION_RECORD *".( Ë÷êøÿÿÿÿ
+{c:S1911Æ"bRemove use of this obsolete "usleep" function. Replace it by a call to "nanosleep" or "setitimer".(®¤™»üÿÿÿÿ
+Jc:S1066×"1Merge this "if" statement with the enclosing one.(‰€·ºıÿÿÿÿ
+Bc:S5955›")Declare the variable "i" inside the loop.(™²Äıÿÿÿÿ
+Dc:S1659€"0Define each identifier in a dedicated statement.(Íé¥¯
+Jc:S886›"2Refactor this loop so that it is less error-prone.(™²Äıÿÿÿÿ
+4c:S1905¤"Remove this redundant cast.(’»¢áüÿÿÿÿ
+4c:S1905¥"Remove this redundant cast.(åÖºŒüÿÿÿÿ
+Dc:S1659Ö"0Define each identifier in a dedicated statement.(µáº§
+Cc:S1659×"0Define each identifier in a dedicated statement.(…‹L
+mc:S3776³"TRefactor this function to reduce its Cognitive Complexity from 74 to the 25 allowed.(…İ´›úÿÿÿÿ
+`c:S134«"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ú¹ĞÉ
+_c:S134¬"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(æÂ6
+`c:S134½"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ê¸õ
+`c:S134¾"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Ó‹î
+Cc:S1659ø"0Define each identifier in a dedicated statement.(€«(
+Cc:S1659ò"0Define each identifier in a dedicated statement.(Éâü
+=c:S3458²"$Remove this redundant "case" clause.(çôš«øÿÿÿÿ
+mc:S3776½"TRefactor this function to reduce its Cognitive Complexity from 58 to the 25 allowed.(ô‘ ’ûÿÿÿÿ
+=c:S3458‡"$Remove this redundant "case" clause.(É¶Š÷øÿÿÿÿ
+=c:S5955 ")Declare the variable "i" inside the loop.(®ºãƒ
+`c:S134²"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¶—¡¿
+c:S5350š"vMake the type of this variable a pointer-to-const. The current type of "override" is "struct cpu_topology_override *".(²›“ïùÿÿÿÿ
+Ic:S1659ª"0Define each identifier in a dedicated statement.(ÈÀêÓùÿÿÿÿ

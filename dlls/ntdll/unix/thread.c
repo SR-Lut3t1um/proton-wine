@@ -1593,6 +1593,8 @@ NTSTATUS WINAPI NtSuspendThread( HANDLE handle, ULONG *count )
     BOOL self = FALSE;
     unsigned int ret;
 
+    WARN("NT SUSPEND THREAD CALLED %#lx.\n", handle);
+
     SERVER_START_REQ( suspend_thread )
     {
         req->handle = wine_server_obj_handle( handle );
