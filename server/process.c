@@ -1066,6 +1066,7 @@ void remove_process_thread( struct process *process, struct thread *thread )
 /* suspend all the threads of a process */
 void suspend_process( struct process *process )
 {
+    printf("\n SUSPENDING Process.... \n");
     if (!process->suspend++)
     {
         struct list *ptr, *next;

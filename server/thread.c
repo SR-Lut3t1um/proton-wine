@@ -60,7 +60,6 @@
 #include "unicode.h"
 #include "fsync.h"
 
-
 /* thread queues */
 
 struct thread_wait
@@ -929,6 +928,7 @@ void stop_thread( struct thread *thread )
 int suspend_thread( struct thread *thread )
 {
     int old_count = thread->suspend;
+    printf("  \n suspending Thread... \n");
     if (thread->suspend < MAXIMUM_SUSPEND_COUNT)
     {
         if (!(thread->process->suspend + thread->suspend++))
