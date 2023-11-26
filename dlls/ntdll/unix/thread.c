@@ -1363,6 +1363,11 @@ NTSTATUS WINAPI NtCreateThreadEx( HANDLE *handle, ACCESS_MASK access, OBJECT_ATT
 
     set_thread_id( teb, GetCurrentProcessId(), tid );
 
+
+
+    printf("Thread created: %i", GetCurrentProcessId());
+    printf("flags used: %lu", flags);
+
     thread_data = (struct ntdll_thread_data *)&teb->GdiTebBatch;
     thread_data->request_fd  = request_pipe[1];
     thread_data->start = start;
@@ -1593,7 +1598,7 @@ NTSTATUS WINAPI NtSuspendThread( HANDLE handle, ULONG *count )
     BOOL self = FALSE;
     unsigned int ret;
 
-    WARN("NT SUSPEND THREAD CALLED %#lx.\n", handle);
+    printf("NT SUSPEND THREAD CALLED %#lx.\n", handle);
 
     SERVER_START_REQ( suspend_thread )
     {
@@ -1975,7 +1980,7 @@ NTSTATUS WINAPI NtQueryInformationThread( HANDLE handle, THREADINFOCLASS class,
 {
     unsigned int status;
 
-    TRACE("(%p,%d,%p,%x,%p)\n", handle, class, data, (int)length, ret_len);
+    printf("(%p,%d,%p,%x,%p)\n", handle, class, data, (int)length, ret_len);
 
     switch (class)
     {
@@ -2013,6 +2018,7 @@ NTSTATUS WINAPI NtQueryInformationThread( HANDLE handle, THREADINFOCLASS class,
             if (data) memcpy( data, &info, min( length, sizeof(info) ));
             if (ret_len) *ret_len = min( length, sizeof(info) );
         }
+        printf("thread basics checked");
         return status;
     }
 

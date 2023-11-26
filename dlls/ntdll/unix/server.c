@@ -1696,6 +1696,8 @@ void server_init_thread( void *entry_point, BOOL *suspend )
     void *teb;
     int reply_pipe = init_thread_pipe();
 
+    BOOL sus = &suspend;
+
     /* always send the native TEB */
     if (!(teb = NtCurrentTeb64())) teb = NtCurrentTeb();
 
@@ -1710,6 +1712,7 @@ void server_init_thread( void *entry_point, BOOL *suspend )
         *suspend = reply->suspend;
     }
     SERVER_END_REQ;
+    if (sus) printf("Thread %lu is started suspended \n", GetCurrentProcessId());
     close( reply_pipe );
 }
 

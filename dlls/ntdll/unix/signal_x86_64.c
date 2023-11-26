@@ -2712,6 +2712,7 @@ NTSTATUS signal_alloc_thread( TEB *teb )
  */
 void signal_free_thread( TEB *teb )
 {
+    printf("freezing \n");
     struct amd64_thread_data *thread_data = (struct amd64_thread_data *)&teb->GdiTebBatch;
     sigset_t sigset;
 
@@ -2938,8 +2939,18 @@ void DECLSPEC_HIDDEN call_init_thunk( LPTHREAD_START_ROUTINE entry, void *arg, B
         *(XSAVE_FORMAT *)wow_context->ExtendedRegisters = context.u.FltSave;
     }
 
+
+    ctx = (CONTEXT *)((ULONG_PTR)context.Rsp & ~15) - 1;
+    *ctx = context;
+    ctx->ContextFlags = CONTEXT_FULL;
+    memset( frame, 0, sizeof(*frame) );
+    NtSetContextThread( GetCurrentThread(), ctx );
+
+
+
     if (suspend)
     {
+        printf("suspending... %i", context.Rcx);
         wait_suspend( &context );
         if (context.ContextFlags & CONTEXT_DEBUG_REGISTERS & ~CONTEXT_AMD64)
         {
@@ -2952,11 +2963,6 @@ void DECLSPEC_HIDDEN call_init_thunk( LPTHREAD_START_ROUTINE entry, void *arg, B
         }
     }
 
-    ctx = (CONTEXT *)((ULONG_PTR)context.Rsp & ~15) - 1;
-    *ctx = context;
-    ctx->ContextFlags = CONTEXT_FULL;
-    memset( frame, 0, sizeof(*frame) );
-    NtSetContextThread( GetCurrentThread(), ctx );
 
     frame->rsp = (ULONG64)ctx - 8;
     frame->rip = (ULONG64)pLdrInitializeThunk;

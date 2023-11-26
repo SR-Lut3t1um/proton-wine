@@ -3368,9 +3368,9 @@ NTSTATUS WINAPI NtQuerySystemInformation( SYSTEM_INFORMATION_CLASS class,
     }
 
     if (ret == STATUS_INVALID_INFO_CLASS) {
-        FIXME( "\x1b[31m (0x%08x,%p,0x%08x,%p) missing INFO stub \x1b[0m \n", class, info, (int)size, ret_size );
+        //FIXME( "\x1b[31m (0x%08x,%p,0x%08x,%p) missing INFO stub \x1b[0m \n", class, info, (int)size, ret_size );
     } else {
-        FIXME( "\x1b[32m (0x%08x,%p,0x%08x,%p) stub \x1b[0m \n", class, info, (int)size, ret_size );
+        //FIXME( "\x1b[32m (0x%08x,%p,0x%08x,%p) stub \x1b[0m \n", class, info, (int)size, ret_size );
     }
 
     if (ret_size) *ret_size = len;

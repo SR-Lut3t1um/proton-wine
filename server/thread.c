@@ -928,7 +928,8 @@ void stop_thread( struct thread *thread )
 int suspend_thread( struct thread *thread )
 {
     int old_count = thread->suspend;
-    printf("  \n suspending Thread... \n");
+    printf("  \n suspending Thread... \n %u", thread->context->regs->flags);
+
     if (thread->suspend < MAXIMUM_SUSPEND_COUNT)
     {
         if (!(thread->process->suspend + thread->suspend++))
