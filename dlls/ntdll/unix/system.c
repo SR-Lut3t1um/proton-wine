@@ -2535,6 +2535,24 @@ static void read_dev_urandom( void *buf, ULONG len )
     else WARN( "can't open /dev/urandom\n" );
 }
 
+
+/* Returns a string representation of _length_ bytes beginning at
+   _array_.  The caller has responsibility to release the string,
+   using _free()_.  If the string could not be allocated, returns a
+   null pointer instead. */
+char *to_hex_string(const unsigned char *array, size_t length)
+{
+    char *outstr = malloc(2*length + 1);
+    if (!outstr) return outstr;
+
+    char *p = outstr;
+    for (size_t i = 0;  i < length;  ++i) {
+        p += sprintf(p, "%02hhx", array[i]);
+    }
+
+    return outstr;
+}
+
 static unsigned int get_system_process_info( SYSTEM_INFORMATION_CLASS class, void *info, ULONG size, ULONG *len )
 {
     FIXME("\n class: %i \n", class);
@@ -2559,7 +2577,7 @@ C_ASSERT( sizeof(struct process_info) <= sizeof(SYSTEM_PROCESS_INFORMATION) );
     SERVER_START_REQ( list_processes )
     {
         wine_server_set_reply( req, buffer, size );
-        FIXME("req: %s \n",  (char*)req);
+        printf("req: %s \n",  to_hex_string(req, sizeof req));
         ret = wine_server_call( req );
         total_thread_count = reply->total_thread_count;
         total_name_len = reply->total_name_len;
@@ -2760,7 +2778,7 @@ NTSTATUS WINAPI NtQuerySystemInformation( SYSTEM_INFORMATION_CLASS class,
     case SystemProcessInformation:  /* 5 */
         ret = get_system_process_info( class, info, size, &len );
         printf("ret: %s \n", ret);
-        printf("SystemProcessInformation status: %s \n", (char*)info);
+        printf("SystemProcessInformation status: 0x%08x \n", info);
         break;
 
     case SystemProcessorPerformanceInformation:  /* 8 */
@@ -3095,7 +3113,7 @@ NTSTATUS WINAPI NtQuerySystemInformation( SYSTEM_INFORMATION_CLASS class,
 
     case SystemExtendedProcessInformation:  /* 57 */
         ret = get_system_process_info( class, info, size, &len );
-        FIXME("GOT ADDICTED: %s", ret);
+        FIXME("SystemExtendedProcessInformation: 0x%08x", ret);
         break;
 
     case SystemRecommendedSharedDataAlignment:  /* 58 */
@@ -3330,6 +3348,7 @@ NTSTATUS WINAPI NtQuerySystemInformation( SYSTEM_INFORMATION_CLASS class,
 
     case SystemWineVersionInformation:  /* 1000 */
     {
+        FIXME("\x1b[31m WINE DETECED \x1b[0m \n");
         static const char version[] = PACKAGE_VERSION;
         struct utsname buf;
 
@@ -3341,8 +3360,6 @@ NTSTATUS WINAPI NtQuerySystemInformation( SYSTEM_INFORMATION_CLASS class,
     }
 
     default:
-	FIXME( "(0x%08x,%p,0x%08x,%p) stub\n", class, info, (int)size, ret_size );
-
         /* Several Information Classes are not implemented on Windows and return 2 different values
          * STATUS_NOT_IMPLEMENTED or STATUS_INVALID_INFO_CLASS
          * in 95% of the cases it's STATUS_INVALID_INFO_CLASS, so use this as the default
@@ -3350,8 +3367,14 @@ NTSTATUS WINAPI NtQuerySystemInformation( SYSTEM_INFORMATION_CLASS class,
         ret = STATUS_INVALID_INFO_CLASS;
     }
 
+    if (ret == STATUS_INVALID_INFO_CLASS) {
+        FIXME( "\x1b[31m (0x%08x,%p,0x%08x,%p) missing INFO stub \x1b[0m \n", class, info, (int)size, ret_size );
+    } else {
+        FIXME( "\x1b[32m (0x%08x,%p,0x%08x,%p) stub \x1b[0m \n", class, info, (int)size, ret_size );
+    }
+
     if (ret_size) *ret_size = len;
-    printf("\n info: %s", info);
+
     return ret;
 }
 
