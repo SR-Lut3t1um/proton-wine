@@ -717,7 +717,7 @@ NTSTATUS WINAPI NtCreateUserProcess( HANDLE *process_handle_ptr, HANDLE *thread_
             parent = ps_attr->Attributes[i].ValuePtr;
             break;
         case PS_ATTRIBUTE_DEBUG_PORT:
-            // debug = ps_attr->Attributes[i].ValuePtr;
+            debug = ps_attr->Attributes[i].ValuePtr;
             break;
         case PS_ATTRIBUTE_IMAGE_NAME:
             path.Length = ps_attr->Attributes[i].Size;
